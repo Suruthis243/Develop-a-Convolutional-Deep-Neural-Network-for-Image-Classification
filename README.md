@@ -4,10 +4,13 @@
 To develop a convolutional deep neural network (CNN) for image classification and to verify the response for new images.
 
 ##   PROBLEM STATEMENT AND DATASET
-Include the Problem Statement and Dataset.
+
+The problem is to design and develop a Convolutional Deep Neural Network (CNN) that can automatically classify grayscale images into predefined categories. The model must learn important spatial features such as edges, textures, and shapes from image data and accurately predict the correct class label.
+
 
 ## Neural Network Model
-Include the neural network model diagram.
+<img width="1088" height="768" alt="image" src="https://github.com/user-attachments/assets/3313bb29-72b5-44e9-9cb9-a1f102a0225b" />
+
 
 ## DESIGN STEPS
 ### STEP 1: 
@@ -43,7 +46,7 @@ predict on a single image and display the image
 
 ### Register Number:212224220114
 
-```
+``` python
 import torch
 import torch.nn as nn
 import torch.optim as optim
